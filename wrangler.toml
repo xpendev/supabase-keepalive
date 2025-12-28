@@ -1,0 +1,11 @@
+name = "supabase-keepalive"
+main = "src/index.ts"
+compatibility_date = "2025-12-01"
+
+[triggers]
+crons = ["0 * * * *"]
+
+[observability]
+enabled = true
+head_sampling_rate = 1
+
